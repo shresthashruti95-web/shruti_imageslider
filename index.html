@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+
+<body>
+    <main class="page">
+        <section class="slider" aria-label="Image slider">
+            <div class="slider-viewport">
+                <div class="slider-track">
+                    <img src="./image/Image1.jpg" alt="image1">
+                    <img src="./image/Image2.jpg" alt="image2">
+                    <img src="./image/Image3.jpg" alt="image3">
+                    <img src="./image/Image4.jpg" alt="image4">
+                </div>
+                <a href="#" class="slider-button previous" aria-label="Previous image">❮</a>
+                <a href="#" class="slider-button next" aria-label="Next image">❯</a>
+            </div>
+            <div class="slider-dots" aria-label="Choose an image"></div>
+            <p class="slide-status" aria-live="polite">Image 1 of 4</p>
+        </section>
+    </main>
+</body>
+
+</html>
